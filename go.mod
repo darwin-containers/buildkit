@@ -213,3 +213,7 @@ tool (
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc
 	google.golang.org/protobuf/cmd/protoc-gen-go
 )
+
+replace github.com/containerd/containerd/v2 => github.com/darwin-containers/containerd/v2 v2.0.0-20251214124930-75029f1d4bce
+
+replace github.com/containerd/containerd/api => github.com/darwin-containers/containerd/api v0.0.0-20251214124930-75029f1d4bce
